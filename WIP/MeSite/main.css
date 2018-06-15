@@ -1,0 +1,18 @@
+html {
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to right, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 13%,rgba(137,195,235,1) 32%,rgba(213,235,251,1) 100%); 
+}
+
+    nav li a {text-decoration: none} /* turn off underline */
+
+    nav li {list-style: none ;
+            display: inline ;
+            border: lightseagreen 2px solid ;
+            padding: 5px ;
+            border-radius: 5px ;
+            background-color: antiquewhite ;
+    }
+
+    nav li:hover {background-color: darkblue;}
+    nav li:hover a {color: darkkhaki; }
+

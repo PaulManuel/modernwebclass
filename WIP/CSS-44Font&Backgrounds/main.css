@@ -1,0 +1,60 @@
+/* @import url('halloween.css'); */
+
+/* @media screen { */
+
+
+    body {
+        color: red;
+        font-size: 100%;
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: radial-gradient(ellipse at center, rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(160,216,239,1) 100%); 
+    }
+
+    
+    header {
+        text-align: center;
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: radial-gradient(ellipse at center, rgba(206,219,233,1) 0%,rgba(97,153,199,1) 9%,rgba(97,153,199,1) 9%,rgba(170,197,222,1) 13%,rgba(58,132,195,1) 17%,rgba(65,154,214,1) 33%,rgba(75,184,240,1) 46%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    }
+    header h2, #hipster h2 span {color: black}
+    footer {font-weight: bold}
+
+    h1 {font-family: 'Courier New', Courier, monospace; font-size: 2em}
+    h2 {color: green; 
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: radial-gradient(ellipse at center, rgba(30,87,153,1) 0%,rgba(125,185,232,0.5) 100%); 
+        font-style: italic; font-size: 1.5em}
+
+
+    nav ul li { list-style-type:none; }
+    nav ul li a {text-decoration:none}
+
+    
+    nav {text-transform: uppercase }
+
+    nav a:link {color: white; background-color: rgba(65,154,214,1)}
+    nav a:hover {color:red;background-color:white}
+
+
+    p {color: blue; font-size: 18px}
+
+    p.two {
+        color: black;
+    }
+
+
+
+    /* li {
+        font-variant: small-caps;
+        color:red;
+    }
+    h1 {
+        color: blue;
+        text-align: center;
+    } */
+    
+   
+   
+
+/* } */
+

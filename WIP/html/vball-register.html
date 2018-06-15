@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volleyball</title>
+</head>
+<body>
+
+    <h1>Register for Nerdy Volleyball Training Camp</h1>
+
+    <div id="personDetails">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>First Name *<input type="text" name="firstName"></label><br />
+            <label>Last Name *<input type="text" name="lastName"></label><br />
+            <label>Date of Birth *<input type="text" name="dob"></label><br />
+            <label>Email *<input type="text" ng-maxlength="email"></label><br />
+            <label>Password *<input type="text" name="password"></label><br />
+            <label>Repeat Password *<input type="text" name="password2"></label><br />
+            <label>Your Github URL<input type="text" name="githubURL"></label><br />
+            <label>Phone:<input type="text" name="phone"></label><br /><br />
+            <label>Shoesize<input type="text" name="shoeSize"></label><br />
+            <label>Skill Level (1 novice, 10 expert)<input type="text" name="skillLevel"></label><br />
+        </fieldset>
+    </div>
+
+    <div id="billingAddress">
+            <fieldset>
+                <legend>Billing address</legend>
+                <label>Address *<textarea rows="5" cols="25" name="address"></textarea></label><br />
+                <label>Postal code *<input type="text" name="postalCode"></label><br />
+                <label>Country *<input type="text" value="Country..." name="country">
+                    <datalist id="countryList">
+                        
+                    </datalist>
+                </label><br />
+            </fieldset>
+    </div>
+    
+                    
+</body>
+</html>
